@@ -1,0 +1,20 @@
+<div class="nasiproizvodi">
+  <h3 class="text-center pt-2">Naši proizvodi</h3>
+</div>
+
+<app-proizvod
+  *ngFor="let post of prodaja"
+   [naziv]="post.naziv"
+   [slika]="post.slika"
+   [opis]="post.opis"
+   [cijena]="post.cijena"
+   [vrsta]="post.vrsta"
+></app-proizvod>
+
+
+
+
+
+
+
+<app-social></app-social>

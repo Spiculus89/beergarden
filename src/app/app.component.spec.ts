@@ -1,4 +1,5 @@
 import { TestBed, async } from '@angular/core/testing';
+import { from } from 'rxjs';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
@@ -19,7 +20,6 @@ describe('AppComponent', () => {
   it(`should have as title 'beergarden'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('beergarden');
   });
 
   it('should render title', () => {
@@ -29,3 +29,5 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('beergarden app is running!');
   });
 });
+
+

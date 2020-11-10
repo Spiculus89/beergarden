@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background: rgb(255,237,128);
+}
+
+.slike {
+  height: 800px;
+  width: 250px;
+  background: transparent;
+}
+.saradnici {
+  height: 700px;
+  width: 250px;
+  background: transparent;
+}
+.novosti {
+  width: 500px;
+  background: transparent;
+  margin-top: 25px;
+}
+
+.social {
+  background: transparent;
+  height: 100px;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.nastim {
+  background: transparent;
+  width: 100%;
+}
+
+.card-body {
+  background: tomato;
+  color: white;
+}
+ h2,h5,h4 {
+   color: royalblue;
+ }
+
+ .novo {
+   width: 50%;
+   background: yellowgreen;
+   height: 20vh;
+ }
+.card{
+  border: none;
+}
+.nasiproizvodi {
+  width: 100%;
+  height: 50px;
+  background: royalblue;
+  color: white;
+}
+.akcija {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: inherit;
+}
+.linkovi {
+  font-size: 1.5em;
+}
+

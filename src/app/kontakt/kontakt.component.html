@@ -1,0 +1,43 @@
+
+
+<div class="container">
+  <h2>O BeerGardenu:</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget ex eu nibh condimentum suscipit. Proin eu ante lacus. Vestibulum euismod, enim gravida aliquam porta, massa velit dignissim erat, id luctus velit ligula sit amet nibh. Morbi mauris quam, eleifend ac porta nec, posuere bibendum quam. Aliquam quis pulvinar diam. Vivamus id posuere est. Vivamus hendrerit velit in neque mattis, et imperdiet neque volutpat. Nunc venenatis in odio eget dapibus. Aliquam erat volutpat.</p>
+   <p> Integer vitae nibh eget est vehicula ultricies. Mauris dignissim leo ac lorem tincidunt, at mollis tellus pharetra. Duis pharetra lacus ut rutrum pulvinar. Ut maximus, nibh vel mattis tempor, mauris turpis cursus justo, quis commodo ipsum urna a lorem. Maecenas sollicitudin, est et auctor tincidunt, enim neque porta mi, hendrerit aliquet lectus nulla in magna. Nulla euismod odio nibh, nec ornare arcu pretium nec. Morbi sit amet lectus lacinia, commodo lorem sit amet, rutrum ligula.</p>
+  <p>  Morbi pulvinar lorem at quam blandit lacinia. Aenean et posuere massa, sollicitudin aliquam justo. Etiam lobortis pretium tellus, sed aliquam eros. Duis eleifend urna sed mauris fermentum, nec posuere augue finibus. Pellentesque et blandit urna. Sed malesuada finibus neque id ornare. Suspendisse ac laoreet lorem.</p>
+  <h4>Nacin dostave:</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget ex eu nibh condimentum suscipit. Proin eu ante lacus. Vestibulum euismod, enim gravida aliquam porta, massa velit dignissim erat, id luctus velit ligula sit amet nibh. Morbi mauris quam, eleifend ac porta nec, posuere bibendum quam. Aliquam quis pulvinar diam. Vivamus id posuere est. Vivamus hendrerit velit in neque mattis, et imperdiet neque volutpat. Nunc venenatis in odio eget dapibus. Aliquam erat volutpat.</p>
+  <button type="button" class="btn btn-primary btn-lg" (click)="toggleShow()">Porući dostavu</button>
+</div>
+<div class="container mt-3 mb-5" *ngIf="isShown">
+  <form>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Ime" required>
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Prezime" required>
+      </div>
+    </div>
+    <div class="row mt-1">
+      <div class="col">
+        <input type="email" class="form-control" placeholder="e-mail" required>
+      </div>
+      <div class="col">
+        <input type="number" class="form-control" placeholder="Broj telefona" required>
+      </div>
+    </div>
+    <div class="row mt-1">
+      <div class="col">
+      <label for="order" class="mr-5">Vaša narudžba:</label>
+        <input class="form-check-input" type="checkbox" value="" id="sarajevo" required>
+        <label class="form-check-label mr-5" for="sarajevo">Sarajevo</label>
+         <input class="form-check-input" type="checkbox" value="" id="gratis">
+        <label class="form-check-label" for="gratis">Minimalno 50 KM za narudžbu</label>
+    </div>
+      <textarea class="form-control" id="order" rows="5" required></textarea>
+</div>
+<button class="btn btn-primary mt-2" type="submit">Pošalji</button>
+  </form>
+</div>
+<app-social></app-social>
