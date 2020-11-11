@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   background: rgb(255,237,128);
-  width: 100%;
-  position: relative;
 }
 
 .slike {
