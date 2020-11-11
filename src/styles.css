@@ -68,3 +68,8 @@ img {
   font-size: 1.5em;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+}
