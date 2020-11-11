@@ -2,6 +2,8 @@
 
 body {
   background: rgb(255,237,128);
+  width: 100%;
+  position: relative;
 }
 
 .slike {
@@ -66,12 +68,4 @@ img {
 }
 .linkovi {
   font-size: 1.5em;
-}
-
-@media only screen and (max-width: 800px) {
-  nav,
-  router-outlet {
-    position: relative;
-        width: 100%;
-  }
 }
