@@ -69,7 +69,8 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
-  body {
+  nav,
+  router-outlet {
     overflow-x: hidden;
   }
 }
